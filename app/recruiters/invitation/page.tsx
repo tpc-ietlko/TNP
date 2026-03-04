@@ -80,11 +80,11 @@ export default function Invitation() {
               <p>
                 We feel immense joy in extending an invitation to visit our
                 institute for participating in Campus Recruitment Drive for the
-                students of 2020 batch. We will feel privileged if you would
+                students of 2026 batch. We will feel privileged if you would
                 provide an opportunity to our students for campus placements. In
                 addition, our pre-final year is a store-house of enormous
                 potential. We would be obliged to have you as a part of our Summer
-                Internship Drive and offer internship opportunities to our 2021
+                Internship Drive and offer internship opportunities to our 2027
                 batch students. This shall help you in previewing the pre-final
                 year students as prospective employees.
               </p>

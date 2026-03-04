@@ -11,8 +11,7 @@ const Footer = () => {
               <h4 className="font-semibold text-lg mb-4">Insights</h4>
               <ul className="space-y-3 text-white/80 text-sm">
                 <li><Link href="/insights/aboutiet" className="hover:text-white transition-colors">About IET</Link></li>
-                <li><Link href="/insights/message" className="hover:text-white transition-colors">Director&apos;s Message</Link></li>
-                <li><a href="https://www.ietlucknow.ac.in/acad/publications" className="hover:text-white transition-colors">Faculty Publications</a></li>
+                <li><Link href="/insights/message" className="hover:text-white transition-colors">TPO&apos;s Message</Link></li>
                 <li><Link href="/insights/recruiters" className="hover:text-white transition-colors">Past Recruiters</Link></li>
               </ul>
             </div>
@@ -22,8 +21,8 @@ const Footer = () => {
               <ul className="space-y-3 text-white/80 text-sm">
                 <li><Link href="/recruiters/procedure" className="hover:text-white transition-colors">Procedure</Link></li>
                 <li><Link href="/recruiters/invitation" className="hover:text-white transition-colors">Invitation</Link></li>
-                <li><Link href="/recruiters/ContactForm" id="company-contact-link" className="hover:text-white transition-colors">Company Contact Form</Link></li>
-                <li><Link href="/recruiters/demographic" className="hover:text-white transition-colors">Demographics</Link></li>
+                <li><Link href="/recruiters/contactform" id="company-contact-link" className="hover:text-white transition-colors">Company Contact Form</Link></li>
+                <li><Link href="/recruiters/demographic" className="hover:text-white transition-colors">Statistics</Link></li>
               </ul>
             </div>
 
@@ -32,7 +31,6 @@ const Footer = () => {
               <ul className="space-y-3 text-white/80 text-sm">
                 <li><a href="/files/Student_Placement_Policy.pdf" className="hover:text-white transition-colors">Placement Policy</a></li>
                 <li><a href="/files/Company_Guidelines_21-22.pdf" className="hover:text-white transition-colors">Internship Guidelines</a></li>
-                <li><Link href="/faq" className="hover:text-white transition-colors">FAQs</Link></li>
                 <li><Link href="/downloads" className="hover:text-white transition-colors">Downloads</Link></li>
               </ul>
             </div>
