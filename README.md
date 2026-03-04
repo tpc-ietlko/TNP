@@ -1,6 +1,6 @@
-# TPC Next.js Migration
+# TPC Next.js
 
-This is the Next.js migration of the TPC (Training and Placement Cell) website for IET Lucknow.
+This is the Next.js version of the TPC (Training and Placement Cell) website for IET Lucknow.
 
 ## Getting Started
 
