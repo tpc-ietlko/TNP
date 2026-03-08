@@ -17,8 +17,8 @@ const instituteDocs = [
 
 const studentDocs = [
   { name: 'Placement Policy', href: '/files/Student_Placement_Policy.pdf', type: 'PDF' },
-  { name: 'Training Form', href: '/files/FINAL_SEMESTER_INTERNSHIP_NOC.pdf', type: 'PDF' },
-  { name: 'Internship NOC', href: '/files/SUMMER_INTERNSHIP_NOC.pdf', type: 'PDF' }
+  { name: 'Training Form', href: '/files/SUMMER_INTERNSHIP_NOC.pdf', type: 'PDF' },
+  { name: 'Internship NOC', href: '/files/FINAL_SEMESTER_INTERNSHIP_NOC.pdf', type: 'PDF' }
 ];
 
 const departmentDocs = [
