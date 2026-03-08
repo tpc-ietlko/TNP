@@ -461,6 +461,35 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section id="glimpse" className="bg-white">
+        <div className="relative w-screen h-[45vh] min-h-[320px] sm:h-[55vh] sm:min-h-[380px] lg:h-[65vh] lg:min-h-[460px] overflow-hidden">
+          <video
+            className="absolute inset-0 w-full h-full object-cover"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            poster="/images/college_image.svg"
+          >
+            <source src="/videos/tnp_vid.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
+          <div className="absolute inset-0 bg-black/50"></div>
+
+          <div className="relative z-10 h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
+            <div className="text-center text-white max-w-3xl">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white">A Legacy of 42 Years</h2>
+              <p className="text-white/90 mt-4 sm:mt-6 text-sm sm:text-base md:text-lg max-w-2xl mx-auto">
+                And Counting.....
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* About Section */}
       <section id="about" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -751,34 +780,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Video Section */}
-      <section id="glimpse" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <SplitText text="Glimpse of Placement Cell" tag="h2" className="text-3xl md:text-4xl font-bold text-brand-800" delay={30} duration={1} splitType="chars" from={{ opacity: 0, y: 20 }} to={{ opacity: 1, y: 0 }} />
-            <div className="h-1.5 w-20 bg-brand-accent rounded-full mx-auto mt-4"></div>
-            <p className="text-muted mt-6 max-w-2xl mx-auto">
-              A quick look at the energy, preparation, and success stories that define our Training &amp; Placement Cell.
-            </p>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-gradient-to-br from-brand-800 to-brand-700 rounded-2xl p-4 sm:p-6 shadow-xl">
-              <div className="bg-black/40 rounded-xl overflow-hidden aspect-video">
-                <video
-                  className="w-full h-full object-cover"
-                  controls
-                  preload="metadata"
-                  poster="/images/college_image.svg"
-                >
-                  <source src="/videos/tnp_vid.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Collaboration Section */}
       <section id="collaboration" className="py-16 lg:py-20 bg-gradient-to-br from-gray-50 to-white">
