@@ -31,101 +31,200 @@ const leadership: Person[] = [
 
 const coordinators: Person[] = [
   {
-    name: "Aryan Pandey",
-    role: "Coordinator",
-    dept: "Civil Engineering",
-    phone: "+91 93057 85058",
-    img: "/images/tnp_members/aryan_pandey.jpg",
-    linkedin: "https://www.linkedin.com/in/aryan-pandey-391a30253/"
-  },
-  {
-    name: "Akhilesh Pratap Singh",
+    name: "Akshit Agarwal",
     role: "Coordinator",
     dept: "CSE",
-    phone: "+91 88108 28730",
-    img: "/images/tnp_members/akhilesh_pratap_singh.jpeg",
-    linkedin: "https://www.linkedin.com/in/akhilesh-pratap-singh-3b9048296/"
+    phone: "+91 9568816481",
+    img: "/images/tnp_members/akshit.jpeg",
+    linkedin: "https://www.linkedin.com/in/akshit-agarwal-0ab856203/"
   },
   {
-    name: "Shivansh Gupta",
+    name: "Shivansh Kaushik",
     role: "Coordinator",
-    dept: "Chemical Engineering",
-    phone: "+91 99368 21286",
-    img: "/images/tnp_members/shivansh_gupta.jpg",
-    linkedin: "https://www.linkedin.com/in/shivansh-gupta07/"
+    dept: "CSE",
+    phone: "+91 7599188181",
+    img: "/images/tnp_members/shivansh.png",
+    linkedin: "https://www.linkedin.com/in/shivansh-kaushik-b3165827a/"
+  },
+  {
+    name: "Gopal Jee",
+    role: "Coordinator",
+    dept: "CSE",
+    phone: "+91 9555665473",
+    img: "/images/tnp_members/gopal.jpeg",
+    linkedin: "https://www.linkedin.com/in/gopaljee2745/"
   }
 ];
 
 const webAdmins: Person[] = [
   {
-    name: "Aayush Vishwakarma",
+    name: "Devansh Rai",
     role: "Web Admin",
     dept: "CSE",
-    phone: "+91 99188 30471",
-    img: "/images/tnp_members/aayush_vishwkarma.jpg",
-    linkedin: "https://www.linkedin.com/in/aayush-vishwakarma-68a8a92a1/"
+    phone: "+91 6387943649",
+    img: "/images/tnp_members/devansh.jpeg",
+    linkedin: "https://www.linkedin.com/in/devansh-rai-0033bb299/"
   },
   {
-    name: "Priyanshu Mishra",
+    name: "Divyanshu Tiwari",
     role: "Web Admin",
-    dept: "CSE",
-    phone: "+91 93693 24363",
-    img: "/images/tnp_members/priyanshu_mishra.jpg",
-    linkedin: "https://www.linkedin.com/in/priyanshu-mishra-6a1011220/"
+    dept: "MCA",
+    phone: "+91 8922921012",
+    img: "/images/tnp_members/divyanshu.jpeg",
+    linkedin: "https://www.linkedin.com/in/divyanshu-tiwari-a1b948220/"
   },
 ];
 
 const teamMembers: Person[] = [
   {
-    name: "Affan Ali",
-    role: "Team Member",
-    dept: "Mechanical Engineering",
-    phone: "+91 93363 71280",
-    img: "/images/tnp_members/affan_ali.jpg",
-    linkedin: "https://www.linkedin.com/in/affan-ali-25b5781ab/"
+    name: "Harsh Aditya",
+    role: "Co-Cordinator",
+    dept: "CSE",
+    phone: "+91 7307434232",
+    img: "/images/tnp_members/harsh_aditya.jpeg",
+    linkedin: "https://www.linkedin.com/in/harsh-aditya-0b6a58271/"
   },
   {
-    name: "Anjali Tomar",
-    role: "Team Member",
-    dept: "Civil Engineering",
-    phone: "+91 86300 59863",
-    img: "/images/tnp_members/anjali_tomar.png",
-    linkedin: "https://www.linkedin.com/in/anjali-tomar-71522a266/"
+    name: "Divyanshi Shukla",
+    role: "Co-Cordinator",
+    dept: "ECE",
+    phone: "+91 8081232038",
+    img: "/images/tnp_members/divyanshi.jpeg",
+    linkedin: "https://www.linkedin.com/in/divyanshi-shukla-6b822b306/"
   },
   {
-    name: "Ayushi Agarwal",
+    name: "Ayush Kaushik",
+    role: "Co-Cordinator",
+    dept: "CHE",
+    phone: "+91 8433484078",
+    img: "/images/tnp_members/ayush.jpeg",
+    linkedin: "https://www.linkedin.com/in/ayush-kaushik-a4815030b/"
+  },
+  {
+    name: "Harsh Chauhan",
+    role: "Co-Cordinator",
+    dept: "CHE",
+    phone: "+91 8700403530",
+    img: "/images/tnp_members/harsh.jpeg",
+    linkedin: "https://www.linkedin.com/in/harsh-chauhan-6bb348336/"
+  },
+  {
+    name: "Anshika Mishra",
+    role: "Co-Cordinator",
+    dept: "ME",
+    phone: "+91 8604837187",
+    img: "/images/tnp_members/anshika_mishra.jpeg",
+    linkedin: "https://www.linkedin.com/in/anshika-mishra-808000280/"
+  },
+  {
+    name: "Afkar Najmain",
+    role: "Co-Cordinator",
+    dept: "ME",
+    phone: "+91 7376110989",
+    img: "/images/tnp_members/afkar.jpg",
+    linkedin: "https://www.linkedin.com/in/afkar-najmain-8b81672b2/"
+  },
+  {
+    name: "Vanshika Tyagi",
     role: "Team Member",
     dept: "CSE",
-    phone: "+91 63934 89820",
-    img: "/images/tnp_members/ayushi_agarwal.jpg",
-    linkedin: "https://www.linkedin.com/in/ayushi-agarwal-316a1124b/"
+    phone: "+91 8130175916",
+    img: "/images/tnp_members/vanshika_tyagi.jpeg",
+    linkedin: "https://www.linkedin.com/in/vanshika-tyagi-25a878338/"
   },
   {
-    name: "Jannu Hans",
+    name: "Vivek Gangwar",
+    role: "Team Member",
+    dept: "ME",
+    phone: "+91 7467000804",
+    img: "/images/tnp_members/vivek.jpg",
+    linkedin: "https://www.linkedin.com/in/vivek-gangwar-03561129b/"
+  },
+  {
+    name: "Abhishek Maurya",
+    role: "Team Member",
+    dept: "EE",
+    phone: "+91 9026123806",
+    img: "/images/tnp_members/abhishek.jpeg",
+    linkedin: "https://www.linkedin.com/in/abhishek-maurya-617987293/"
+  },
+  {
+    name: "Arin Mishra",
     role: "Team Member",
     dept: "CSE",
-    phone: "+91 78893 26956",
-    img: "/images/tnp_members/jannu_hans.jpg",
-    linkedin: "https://www.linkedin.com/in/jannu-hans-16181a2a1/"
+    phone: "+91 9555962392",
+    img: "/images/tnp_members/arin.jpeg",
+    linkedin: "https://www.linkedin.com/in/arinmishra100/"
   },
   {
-    name: "Rimjhim Singh",
+    name: "Dhananjay Pandey",
     role: "Team Member",
-    dept: "Civil Engineering",
-    phone: "+91 98388 33546",
-    img: "/images/tnp_members/rimjhim_singh.jpg",
-    linkedin: "https://www.linkedin.com/in/rimjhim-singh-2457ba25a/"
+    dept: "CSE",
+    phone: "+91 8467075453",
+    img: "/images/tnp_members/dhananjay.jpeg",
+    linkedin: "https://www.linkedin.com/in/dhananjay-pandey-59b79b293/"
   },
   {
-    name: "Utkarsh Singh",
+    name: "Vanshika Dubey",
     role: "Team Member",
-    dept: "Mechanical Engineering",
-    phone: "+91 87914 03171",
-    img: "/images/tnp_members/utkarsh.jpg",
-    linkedin: "https://www.linkedin.com/in/utkarshsingh-iet/"
+    dept: "CSE",
+    phone: "+91 9506375705",
+    img: "/images/tnp_members/vanshika_dubey.jpg",
+    linkedin: "https://www.linkedin.com/in/vanshika-dubey-566387281/"
+  },
+  {
+    name: "Anshika Gupta",
+    role: "Team Member",
+    dept: "CSE",
+    phone: "+91 8840597998",
+    img: "/images/tnp_members/anshika_gupta.jpeg",
+    linkedin: "https://www.linkedin.com/in/anshika-gupta-a3088228a/"
+  },
+  {
+    name: "Anupriya Ranjan",
+    role: "Team Member",
+    dept: "MCA",
+    phone: "+91 8176089337",
+    img: "/images/tnp_members/anupriya.jpeg",
+    linkedin: "https://www.linkedin.com/in/anupriya-ranjan-956580384/"
   },
 ];
 
+
+const mbaMembers: Person[] = [
+  {
+    name: "Sakshi Pathak",
+    role: "Team Member",
+    dept: "Marketing & Operations",
+    phone: "+91 8707652824",
+    img: "/images/tnp_members/sakshi.jpeg",
+    linkedin: "https://www.linkedin.com/in/sakshi-pathak-26528b261/"
+  },
+  {
+    name: "Tanishq Joshi",
+    role: "Team Member",
+    dept: "Finance & Marketing",
+    phone: "+91 7318483044",
+    img: "/images/tnp_members/tanishq.jpeg",
+    linkedin: "https://www.linkedin.com/in/tanishqjoshi1402/"
+  },
+  {
+    name: "Anshika Yadav",
+    role: "Team Member",
+    dept: "Marketing & Operations",
+    phone: "+91 6392744806",
+    img: "/images/tnp_members/anshika.jpeg",
+    linkedin: "https://www.linkedin.com/in/anshika-yadav-6b8875335/"
+  },
+  {
+    name: "Abhinav Srivastav",
+    role: "Team Member",
+    dept: "Finance & Operations",
+    phone: "+91 9140612343",
+    img: "/images/tnp_members/abhinav.jpeg",
+    linkedin: "https://www.linkedin.com/in/abhinav-srivastav-26593a358/"
+  },
+];
 function PersonCard({ person, large = false }: { person: Person; large?: boolean }) {
   const initials = person.name
     .split(" ")
@@ -369,6 +468,38 @@ export default function ContactUsPage() {
               }`}>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {teamMembers.map((person) => (
+                    <PersonCard key={person.name} person={person} />
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <div className="border border-gray-100 bg-white/50 rounded-3xl overflow-hidden shadow-sm">
+              <button
+                type="button"
+                onClick={() => setTeamOpen((prev) => !prev)}
+                className="w-full flex items-center justify-between p-6 md:p-8 hover:bg-white transition-colors group"
+              >
+                <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-brand-800 flex items-center gap-2 sm:gap-3">
+                  <span className="w-8 h-1 bg-brand-accent rounded-full"></span>
+                  MBA PLACEMENT TEAM
+                </h2>
+                <svg
+                  className={`w-6 h-6 text-brand-400 transform transition-transform duration-300 ${
+                    teamOpen ? "rotate-0" : "-rotate-90"
+                  }`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div className={`px-6 pb-8 md:px-8 md:pb-10 transition-all duration-300 ease-in-out ${
+                teamOpen ? "block" : "hidden"
+              }`}>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {mbaMembers.map((person) => (
                     <PersonCard key={person.name} person={person} />
                   ))}
                 </div>
