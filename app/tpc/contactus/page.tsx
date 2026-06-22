@@ -119,7 +119,7 @@ const teamMembers: Person[] = [
   {
     name: "Afkar Najmain",
     role: "Co-Cordinator",
-    dept: "ME",
+    dept: "CSE",
     phone: "+91 7376110989",
     img: "/images/tnp_members/afkar.jpg",
     linkedin: "https://www.linkedin.com/in/afkar-najmain-8b81672b2/"
