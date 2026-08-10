@@ -34,7 +34,7 @@ const coordinators: Person[] = [
     name: "Akshit Agarwal",
     role: "Coordinator",
     dept: "CSE",
-    phone: "+91 9568816481",
+    phone: "+91 9897241287",
     img: "/images/tnp_members/akshit.jpeg",
     linkedin: "https://www.linkedin.com/in/akshit-agarwal-0ab856203/"
   },
@@ -61,7 +61,7 @@ const webAdmins: Person[] = [
     name: "Devansh Rai",
     role: "Web Admin",
     dept: "CSE",
-    phone: "+91 6387943649",
+    phone: "+91 9236517915",
     img: "/images/tnp_members/devansh.jpeg",
     linkedin: "https://www.linkedin.com/in/devansh-rai-0033bb299/"
   },
